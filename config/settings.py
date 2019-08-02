@@ -145,4 +145,5 @@ AWS_S3_OBJECT_PARAMENTERS = {
 DEFAULT_FILE_STORAGE = 'config.asset_storage.MediaStorage'
 
 DATABASES['default'].update(dj_database_url.config(conn_max_age=500))
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
